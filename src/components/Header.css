@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 2rem;
+}
+
+.header-content {
+    max-width: 50%;
+}
+
+.header h1 {
+    font-size: 3rem;
+}
+
+.header p {
+    margin: 1rem 0;
+}
+
+.header button {
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: #45a049;
+}
+
+.header-image img {
+    border-radius: 50%;
+    max-width: 200px;
+}
